@@ -1,0 +1,42 @@
+.tablepie{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+      display: grid;
+      padding: 5px;
+      justify-content: center;
+      
+    }
+    .first{
+        display: grid;
+        
+    }
+    .tablepie{
+        display: grid;
+        
+    }
+   
+    
+  }
+  @media screen and (max-width: 468px) {
+    .bargraph {
+        width: 300px;
+        justify-content: center;
+
+    }
+
+  }

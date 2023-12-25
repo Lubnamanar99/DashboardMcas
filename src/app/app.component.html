@@ -1,0 +1,37 @@
+<!---header-->
+<app-header (onMenuBtnClick)="toggle()"></app-header>
+
+<!--basic drawer structure-->
+
+<mat-drawer-container class="example-container">
+
+  <!--sidebar-->
+  
+  <mat-drawer mode="side" [opened]="sideopened">
+    <app-sidebar></app-sidebar>
+  </mat-drawer>
+
+
+
+    <!--dashboard-->
+
+
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+<!--end-->
+
+
+
+
+
+
+  
+
+    
+
+<mat-divider></mat-divider>
+
+<!--footer-->
+<app-footer></app-footer>

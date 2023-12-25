@@ -1,0 +1,35 @@
+<mat-toolbar>
+    <button (click)="menubtnclicked()"  mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+<img src="http://mcasclt.ac.in/wp-content/uploads/2020/01/logo-1-1.png" alt="no">
+    
+    <span class="example-spacer"></span>
+
+    <div class="flex-container">
+        <ul>
+            <!--icon1-->
+           <li>
+                <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with settings icon">
+                  <mat-icon>settings</mat-icon>
+                </button>
+           </li>
+       
+    
+            <!--icon3-->
+            <li>
+                <button [matMenuTriggerFor]="menu"  mat-icon-button class="example-icon" aria-label="Example icon-button with person icon">
+                    <mat-icon>person_outline</mat-icon>
+                  </button>
+                  <mat-menu #menu="matMenu">
+                    <button mat-menu-item><mat-icon>logout</mat-icon>Logout</button>
+                   
+                  </mat-menu>
+            </li>
+        </ul>
+    </div>
+
+
+
+  </mat-toolbar>

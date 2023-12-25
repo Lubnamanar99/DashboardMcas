@@ -1,0 +1,9 @@
+span{
+    color:orangered;
+    font-weight: bolder;
+}
+button{
+    color: white;
+    background-color: orangered;
+    border: none;
+}

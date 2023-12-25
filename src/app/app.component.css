@@ -1,0 +1,29 @@
+mat-drawer-container{
+    height: 85vh;
+    
+
+}
+
+mat-drawer{
+    width: 230px;
+    height: 850px;
+    background-color: #00003c;
+   
+    
+}
+
+mat-drawer-content{
+    padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    mat-drawer{
+        height: 1600px;
+        
+
+    }
+    mat-drawer-content{
+        padding: 30px;
+    }
+}

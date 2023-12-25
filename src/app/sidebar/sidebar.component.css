@@ -1,0 +1,33 @@
+*{
+    color: white;
+    
+}
+
+
+
+
+
+
+
+h2{
+    font-size: larger;
+    padding-left: 20px;
+   
+    font-weight: 500;
+    margin-top: 50px;
+    
+    
+}
+
+mat-icon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    
+}
+.side  h2:hover{
+    background-color: rgb(73, 67, 67);
+    color: rgb(240, 116, 0);
+}
